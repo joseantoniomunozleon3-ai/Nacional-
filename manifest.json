@@ -1,0 +1,36 @@
+{
+  "name": "Carta de Porte Nacional",
+  "short_name": "Carta de Porte",
+  "description": "Gestión de Cartas de Porte Nacional — Ley 15/2009 · Orden FOM/1882/2012",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1009",
+  "theme_color": "#1a1009",
+  "lang": "es",
+  "scope": "./",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva Carta de Porte",
+      "short_name": "Nuevo CP",
+      "description": "Crear una nueva Carta de Porte",
+      "url": "./index.html",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
